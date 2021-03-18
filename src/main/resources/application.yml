@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: cacheit
+  caches:
+    thing:
+      maximum-size: 100
+      expire-after-write: 10s
+
+simple-message: "greetings"
